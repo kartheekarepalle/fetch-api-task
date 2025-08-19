@@ -1,38 +1,141 @@
-.App {
+.app-container {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  padding: 20px;
   min-height: 100vh;
+  transition: background 0.3s ease, color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Light Mode */
+.app-container.light {
+  background: linear-gradient(135deg, #f8f9fa, #e0f7fa);
+  color: #2f3542;
+}
+
+/* Dark Mode */
+.app-container.dark {
+  background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+  color: #f1f2f6;
+}
+
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.title {
+  font-size: 2.8rem;
+  margin: 10px 0;
+  color: #ff4757;
+  text-shadow: 2px 2px #ffc107;
+}
+
+.mode-toggle {
+  background: #3742fa;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.mode-toggle:hover {
+  background: #1e90ff;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  margin: 20px auto;
+  outline: none;
+  font-size: 1rem;
+}
+.search-bar:focus {
+  border-color: #ff6b81;
+}
+
+.info {
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* Base Card Style */
+.card {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 20px;
+  transition: transform 0.3s ease, background 0.3s ease;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.dark .card {
+  color: #f1f2f6;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Different colorful backgrounds */
+.card-1 { background: linear-gradient(135deg, #ff9a9e, #fad0c4); }
+.card-2 { background: linear-gradient(135deg, #a1c4fd, #c2e9fb); }
+.card-3 { background: linear-gradient(135deg, #fbc2eb, #a6c1ee); }
+.card-4 { background: linear-gradient(135deg, #84fab0, #8fd3f4); }
+.card-5 { background: linear-gradient(135deg, #fccb90, #d57eeb); }
+.card-6 { background: linear-gradient(135deg, #fddb92, #d1fdff); }
+
+.pokemon-img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.pokemon-name {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+.pokemon-type, .pokemon-info {
+  font-size: 0.95rem;
+}
+
+.pagination {
+  margin-top: 30px;
+}
+
+.btn {
+  background: #ff6b81;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #ff4757;
+}
+
+.page-number {
+  font-weight: bold;
+  margin: 0 15px;
 }

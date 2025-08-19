@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 🌌 PokéVerse - Fetch API Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PokéVerse is a **Pokémon Explorer Web App** built with React that allows users to explore, search, and filter Pokémon in a fun and interactive way.  
+It supports **Light/Dark mode**, **multi-field search (name, type, ability, weight)**, **pagination**, and **colorful animated cards** for a beautiful user experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
+- **Smart Search**: Search Pokémon by **name, type, ability, or weight**.  
+- **Colorful Cards**: Each Pokémon card has a unique gradient background.  
+- **Light & Dark Mode** toggle for better user experience.  
+- **High-quality Pokémon Images** (Official Artwork).  
+- **Pagination**: Browse Pokémon in pages (12 per page).  
+- **Responsive Design** – works on desktop & mobile.  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
+- **Frontend**: React.js  
+- **Styling**: CSS3 (custom styles with gradients & animations)  
+- **API**: [PokéAPI](https://pokeapi.co/)  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Installation & Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository:
+   git clone git clone https://github.com/kartheekarepalle/fetch-api-task.git
 
-### `npm run build`
+2. Navigate to the project folder: cd fetch-api-task
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install dependencies: npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Start the development server: npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+🎥 Demo Video: https://drive.google.com/file/d/1kl_vroohdsFBdvvcZVZTpCmDTa3v4ys_/view?usp=drivesdk
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+📌 Author
+👤 Kartheeka Repalle
+🌍 linkedin: https://www.linkedin.com/in/kartheeka-repalle-2139a1363/
