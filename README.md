@@ -35,6 +35,9 @@ It supports **Light/Dark mode**, **multi-field search (name, type, ability, weig
 
 ---
 
+Live Demo: 
+fetch-api-task-two.vercel.app
+
 🎥 Demo Video: https://drive.google.com/file/d/1kl_vroohdsFBdvvcZVZTpCmDTa3v4ys_/view?usp=drivesdk
 
 ---
